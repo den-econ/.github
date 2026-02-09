@@ -49,5 +49,5 @@ Jika sudah install VS Code, ada beberapa setting extra yang akan membuat hidup a
 ```
 jangan lupa `YOUR_USERNAME` diganti jadi username di komputer anda.
 
-kedua, plugin. jangan lupa install-install plugin yang akan mempermudah hidup anda. Yg wajib ada adalah Jupyter, Quarto, dan R. Kalau anda pake AI seperti Claude, ChatGPT atau Gemini, mereka juga punya plugins di store-nya VS Code.
+kedua, extensions. jangan lupa install-install extensions yang akan mempermudah hidup anda. Yg wajib ada adalah Jupyter, Quarto, dan R. Kalau anda pake AI seperti Claude, ChatGPT atau Gemini, mereka juga punya plugins di store-nya VS Code. List exntesions yang saya rekomen ada [di sini](vscodeextensions.md)
 
