@@ -26,3 +26,24 @@ Kita akan berinteraksi dengan semua piranti lunak di atas melalui sebuah IDE(Int
 ## IDE plugins
 
 Jika sudah install VS Code
+
+Open VS Code.
+
+Press Ctrl + Shift + P and type "Open User Settings (JSON)".
+
+Add (or edit) the terminal.integrated.profiles.windows section. Paste this block inside the curly braces:
+
+```{=JSON}
+"terminal.integrated.profiles.windows": {
+    "Conda": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell",
+        "args": [
+            "-ExecutionPolicy", "ByPass",
+            "-NoExit",
+            "-Command", "& 'C:\\Users\\YOUR_USERNAME\\anaconda3\\shell\\condabin\\conda-hook.ps1'; conda activate 'base'"
+        ]
+    }
+},
+"terminal.integrated.defaultProfile.windows": "Conda"
+```
