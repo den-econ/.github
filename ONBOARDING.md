@@ -18,7 +18,7 @@ Berikut ini adalah beberapa hal yang harus anda install untuk mengintegrasikan b
 ## IDE:
 Kita akan berinteraksi dengan semua piranti lunak di atas melalui sebuah IDE(Integrated Development Environment). Kita cuma perlu install 1 aja sebenarnya, tapi kalo sambil mau eksplor boleh juga diinstall lebih dari satu untuk memilih nantinya lebih suka make yang mana.
 1. [VS Code](https://code.visualstudio.com/download) adalah IDE paling standar. Saya paling rekomendasiin IDE yang satu ini. Ketika diinstall, jangan lupa centang 'add "open with code"` (lihat gambar)
-![Source: [Stack Overflow](https://stackoverflow.com/questions/37306672/visual-studio-code-open-with-code-does-not-appear-after-right-clicking-a-folde)](vscode.png)
+![Source: [Stack Overflow](https://stackoverflow.com/questions/37306672/visual-studio-code-open-with-code-does-not-appear-after-right-clicking-a-folde)](vscode.jpg)
 2. [RStudio](https://posit.co/download/rstudio-desktop/) adalah IDE yang biasanya digunakan oleh pengguna R. Dulu saya juga mulai dari sini dan masih paling intuitif kalau kita pake R. Tapi saya sendiri lebih sering pakai VSCode sekarang. Jika anda pengguna RStudio boleh juga mulai nyoba pindah ke VS Code.
 3. [Positron](https://positron.posit.co/) adalah IDE baru bikinan Posit, perusahaan di balik RStudio. IDE ini masih baru dan arahnya membuat IDE serupa RStudio tapi mengandalkan ekosistem plugin VS Code yang lebih kaya.
 4. [Google Antigravity](https://antigravity.google/download) adalah IDE baru dari Google yang tujuannya mengoptimalkan asisten koding berbasis agen. My experience so far with this IDE is pretty good.
