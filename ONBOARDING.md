@@ -23,27 +23,29 @@ Kita akan berinteraksi dengan semua piranti lunak di atas melalui sebuah IDE(Int
 3. [Positron](https://positron.posit.co/) adalah IDE baru bikinan Posit, perusahaan di balik RStudio. IDE ini masih baru dan arahnya membuat IDE serupa RStudio tapi mengandalkan ekosistem plugin VS Code yang lebih kaya.
 4. [Google Antigravity](https://antigravity.google/download) adalah IDE baru dari Google yang tujuannya mengoptimalkan asisten koding berbasis agen. My experience so far with this IDE is pretty good.
 
-## IDE plugins
+## VS Code
 
-Jika sudah install VS Code
+Jika sudah install VS Code, ada beberapa setting extra yang akan membuat hidup anda lebih nyaman. Ini gak wajib tapi mempermudah aja sih. Pertama adalah menggunakan anaconda prompt sebagai terminal default di VS Code. Lakukan langkah-langkah ini:
 
-Open VS Code.
-
-Press Ctrl + Shift + P and type "Open User Settings (JSON)".
-
-Add (or edit) the terminal.integrated.profiles.windows section. Paste this block inside the curly braces:
+1. Buka VS Code.
+2. Tekan `Ctrl + Shift + P` lalu ketik "Open User Settings (JSON)".
+3. Tambahin entri di bawah ini. Jangan lupa perhatikan indentasi yah.
 
 ```{=JSON}
-"terminal.integrated.profiles.windows": {
-    "Conda": {
-        "source": "PowerShell",
-        "icon": "terminal-powershell",
-        "args": [
-            "-ExecutionPolicy", "ByPass",
-            "-NoExit",
-            "-Command", "& 'C:\\Users\\YOUR_USERNAME\\anaconda3\\shell\\condabin\\conda-hook.ps1'; conda activate 'base'"
-        ]
-    }
-},
-"terminal.integrated.defaultProfile.windows": "Conda"
+  "terminal.integrated.profiles.windows": {
+      "Conda": {
+          "source": "PowerShell",
+          "icon": "terminal-powershell",
+          "args": [
+              "-ExecutionPolicy", "ByPass",
+              "-NoExit",
+              "-Command", "& 'C:\\Users\\YOUR_USERNAME\\anaconda3\\shell\\condabin\\conda-hook.ps1'; conda activate 'base'"
+          ]
+      }
+  },
+  "terminal.integrated.defaultProfile.windows": "Conda"
 ```
+jangan lupa `YOUR_USERNAME` diganti jadi username di komputer anda.
+
+kedua, plugin. jangan lupa install-install plugin yang akan mempermudah hidup anda. Yg wajib ada adalah Jupyter, Quarto, dan R. Kalau anda pake AI seperti Claude, ChatGPT atau Gemini, mereka juga punya plugins di store-nya VS Code.
+
