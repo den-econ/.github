@@ -1,69 +1,61 @@
-# Code of Conduct
+# Kode Etik
 
-## Our Pledge
+## Janji Kami
 
-DEN Economic Lab is committed to providing a welcoming and respectful environment
-for everyone who engages with our work — whether as a lab member, external
-researcher, student, policymaker, or member of the public.
+DEN Economic Lab berkomitmen buat nyediain lingkungan yang ramah dan penuh rasa hormat buat semua orang yang terlibat dengan pekerjaan kami — baik sebagai anggota lab, peneliti eksternal, mahasiswa, pembuat kebijakan, maupun masyarakat umum.
 
-We pledge to make participation in our community a harassment-free experience
-for everyone, regardless of age, body size, disability, ethnicity, gender identity
-and expression, level of experience, nationality, personal appearance, race,
-religion, or sexual identity and orientation.
+Kami berjanji bikin partisipasi di komunitas kami jadi pengalaman yang bebas dari pelecehan buat semua orang, tanpa memandang usia, ukuran tubuh, disabilitas, etnis, identitas dan ekspresi gender, tingkat pengalaman, kewarganegaraan, penampilan pribadi, ras, agama, atau identitas dan orientasi seksual.
 
 ---
 
-## Our Standards
+## Standar Kami
 
-### Expected Behaviour
+### Perilaku yang Diharapkan
 
-- Be respectful and constructive in all interactions
-- Give credit where it is due — cite our work and others' work fairly
-- Accept feedback gracefully — both giving and receiving
-- Focus on what is best for the quality and integrity of the analysis
-- Show empathy toward other contributors and community members
-- Engage with methodology disagreements through evidence and reasoned argument
+- Bersikap hormat dan konstruktif dalam semua interaksi
+- Kasih credit yang seharusnya — sitasi karya kami dan karya orang lain dengan fair
+- Terima feedback dengan baik — baik pas ngasih maupun nerima
+- Fokus pada apa yang terbaik buat kualitas dan integritas analisis
+- Tunjukin empati ke kontributor dan anggota komunitas lain
+- Kalau beda pendapat soal metodologi, diskusiin lewat bukti dan argumen yang masuk akal
 
-### Unacceptable Behaviour
+### Perilaku yang Nggak Bisa Diterima
 
-- Harassment, intimidation, or discriminatory language of any kind
-- Personal attacks or insults, including on someone's level of expertise
-- Publishing others' private information without consent
-- Bad-faith engagement: deliberately misleading claims about our methods or data
-- Political pressure to change analytical findings
-- Any conduct that would be considered inappropriate in a professional setting
-
----
-
-## Scope
-
-This Code of Conduct applies to all DEN Economic Lab spaces, including:
-
-- GitHub repositories (Issues, Pull Requests, Discussions, commit messages)
-- The `.github-private` member hub
-- Any communication conducted in an official lab capacity
+- Pelecehan, intimidasi, atau bahasa diskriminatif dalam bentuk apapun
+- Serangan pribadi atau hinaan, termasuk soal tingkat keahlian seseorang
+- Publish informasi pribadi orang lain tanpa izin
+- Keterlibatan dengan niat buruk: bikin klaim yang sengaja nyesatin tentang metode atau data kami
+- Tekanan politik buat ngubah temuan analisis
+- Perilaku apapun yang bakal dianggap nggak pantas di lingkungan profesional
 
 ---
 
-## Enforcement
+## Cakupan
 
-Instances of unacceptable behaviour may be reported to the lab lead at
-[contact@den-econ.id](mailto:contact@den-econ.id). All reports will be
-reviewed confidentially.
+Kode Etik ini berlaku buat semua ruang DEN Economic Lab, termasuk:
 
-The lab team will investigate and may take any of the following actions:
-
-1. **Warning** — a private written warning with explanation
-2. **Temporary ban** — temporary removal from community spaces
-3. **Permanent ban** — permanent removal for severe or repeated violations
+- Repositori GitHub (Issues, Pull Requests, Discussions, commit messages)
+- Hub anggota `.github-private`
+- Komunikasi apapun yang dilakuin dalam kapasitas resmi lab
 
 ---
 
-## Attribution
+## Penegakan
 
-This Code of Conduct is adapted from the
-[Contributor Covenant, version 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
+Kejadian perilaku yang nggak bisa diterima bisa dilaporin ke pemimpin lab di [contact@den-econ.id](mailto:contact@den-econ.id). Semua laporan bakal ditinjau secara rahasia.
+
+Tim lab bakal investigasi dan bisa ambil salah satu tindakan berikut:
+
+1. **Peringatan** — peringatan tertulis pribadi dengan penjelasan
+2. **Larangan Sementara** — dikeluarin sementara dari ruang komunitas
+3. **Larangan Permanen** — dikeluarin permanen buat pelanggaran yang parah atau berulang
 
 ---
 
-*DEN Economic Lab — Open Analysis for Public Good*
+## Atribusi
+
+Kode Etik ini diadaptasi dari [Contributor Covenant, versi 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
+
+---
+
+*DEN Economic Lab — Analisis Terbuka untuk Kepentingan Publik*

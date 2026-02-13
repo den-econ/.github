@@ -1,189 +1,178 @@
-# Contributing to DEN Economic Lab
+# Berkontribusi ke DEN Economic Lab
 
-Thank you for your interest in our work. DEN Economic Lab is committed to open,
-reproducible economic analysis in service of the Indonesian public. This guide
-explains how anyone — inside or outside the lab — can engage with our repositories.
+Terima kasih sudah tertarik dengan pekerjaan kami! DEN Economic Lab fokus pada analisis ekonomi yang terbuka dan bisa direproduksi siapa saja demi kepentingan publik Indonesia. Panduan ini menjelaskan bagaimana kalian — baik dari dalam maupun luar lab — bisa ikut berkontribusi di repositori kami.
 
 ---
 
-## Table of Contents
+## Daftar Isi
 
-- [Who Can Contribute](#who-can-contribute)
-- [Ways to Contribute](#ways-to-contribute)
-- [Reporting Errors](#reporting-errors)
-- [Suggesting Improvements](#suggesting-improvements)
-- [Submitting Code or Data Corrections](#submitting-code-or-data-corrections)
-- [Replication Issues](#replication-issues)
-- [Style & Standards](#style--standards)
-- [Pull Request Process](#pull-request-process)
-- [Code of Conduct](#code-of-conduct)
-- [Contact](#contact)
-
----
-
-## Who Can Contribute
-
-**External researchers, students, and the public** are welcome to:
-- Report errors in our analysis (data, code, or methodology)
-- Ask questions about our methods via GitHub Discussions
-- Suggest improvements or extensions to our work
-- Submit corrections via Pull Request
-
-**Lab members** follow the internal workflow documented in our
-[`.github-private`](https://github.com/den-econ/.github-private) repository.
+- [Siapa yang Bisa Kontribusi](#siapa-yang-bisa-kontribusi)
+- [Cara Berkontribusi](#cara-berkontribusi)
+- [Melaporkan Kesalahan](#melaporkan-kesalahan)
+- [Kasih Saran Perbaikan](#kasih-saran-perbaikan)
+- [Submit Koreksi Kode atau Data](#submit-koreksi-kode-atau-data)
+- [Masalah Replikasi](#masalah-replikasi)
+- [Gaya & Standar](#gaya--standar)
+- [Proses Pull Request](#proses-pull-request)
+- [Kode Etik](#kode-etik)
+- [Kontak](#kontak)
 
 ---
 
-## Ways to Contribute
+## Siapa yang Bisa Kontribusi
 
-### 1. Ask a Question
-Use [GitHub Discussions](https://github.com/orgs/den-econ/discussions) for:
-- Questions about methodology
-- Requests for clarification on data sources
-- General discussion about our research
+**Peneliti eksternal, mahasiswa, dan siapa aja** boleh:
+- Lapor kesalahan dalam analisis kami (data, kode, atau metodologi)
+- Tanya-tanya soal metode kami lewat GitHub Discussions
+- Kasih saran perbaikan atau ide pengembangan
+- Submit koreksi lewat Pull Request
 
-Please search existing discussions before opening a new one.
-
-### 2. Report an Error
-Use **GitHub Issues** (see [Reporting Errors](#reporting-errors) below) for:
-- Bugs in code (wrong output, errors when running)
-- Data errors (wrong values, missing observations)
-- Methodology concerns (potential errors in analytical approach)
-- Replication failures (cannot reproduce our results)
-
-### 3. Submit a Fix
-If you have already identified an error *and* have a correction ready,
-you may open a Pull Request directly (see [Pull Request Process](#pull-request-process)).
+**Anggota Lab** ikut alur kerja internal yang ada di repositori [`.github-private`](https://github.com/den-econ/.github-private) kami.
 
 ---
 
-## Reporting Errors
+## Cara Berkontribusi
 
-Open an Issue using the appropriate template:
+### 1. Tanya-tanya
+Pakai [GitHub Discussions](https://github.com/orgs/den-econ/discussions) untuk:
+- Nanya soal metodologi
+- Minta klarifikasi tentang sumber data
+- Diskusi umum tentang riset kami
 
-| Template | Use For |
+Tolong cek dulu diskusi yang udah ada sebelum bikin yang baru ya.
+
+### 2. Lapor Kesalahan
+Pakai **GitHub Issues** (lihat [Melaporkan Kesalahan](#melaporkan-kesalahan) di bawah) untuk:
+- Bug dalam kode (output salah, error pas dijalanin)
+- Kesalahan data (nilai salah, ada data yang hilang)
+- Masalah metodologi (kayaknya ada yang salah dalam pendekatan analisis)
+- Gagal replikasi (nggak bisa reproduce hasil kami)
+
+### 3. Submit Perbaikan
+Kalau kamu udah nemu kesalahan *dan* punya solusinya, langsung aja buka Pull Request (lihat [Proses Pull Request](#proses-pull-request)).
+
+---
+
+## Melaporkan Kesalahan
+
+Buka Issue pakai template yang sesuai:
+
+| Template | Untuk Apa |
 |----------|---------|
-| 🐛 **Code Error** | Script fails, wrong output, missing output |
-| 📊 **Data Error** | Wrong values, source mismatch, missing data |
-| 🔁 **Replication Issue** | Cannot reproduce results from our paper |
-| ❓ **Method Question** | Not an error, just a question about approach |
+| 🐛 **Kesalahan Kode** | Script error, output salah, atau hasilnya nggak keluar |
+| 📊 **Kesalahan Data** | Nilai salah, sumber nggak cocok, data hilang |
+| 🔁 **Masalah Replikasi** | Nggak bisa reproduce hasil dari paper kami |
+| ❓ **Pertanyaan Metode** | Bukan error, cuma mau nanya tentang pendekatan |
 
-When reporting, please include:
-- Which repository and which file
-- What you expected vs. what you observed
-- Your operating system, Stata/R/Python version
-- Steps to reproduce the problem
-
----
-
-## Suggesting Improvements
-
-We welcome suggestions for:
-- Extensions to existing analyses
-- Additional robustness checks
-- Alternative methodological approaches
-- Better data sources
-
-Please open a Discussion rather than an Issue for suggestions, as they are
-not errors and benefit from open conversation before any decision is made.
+Pas laporan, tolong sertakan:
+- Repositori dan file yang mana
+- Yang kamu harapkan vs. yang sebenarnya terjadi
+- Sistem operasi kamu, versi Stata/R/Python
+- Langkah-langkah buat reproduce masalahnya
 
 ---
 
-## Submitting Code or Data Corrections
+## Kasih Saran Perbaikan
 
-If you have identified an error and have a fix ready:
+Kami welcome saran untuk:
+- Pengembangan analisis yang udah ada
+- Robustness check tambahan
+- Pendekatan metodologi alternatif
+- Sumber data yang lebih baik
 
-1. **Fork** the repository
-2. **Create a branch** named descriptively:
+Buat saran, lebih baik buka Discussion daripada Issue ya, karena ini bukan error dan lebih enak didiskusiin dulu bareng-bareng sebelum ada keputusan.
+
+---
+
+## Submit Koreksi Kode atau Data
+
+Kalau kamu udah nemu kesalahan dan punya perbaikannya:
+
+1. **Fork** repositori-nya
+2. **Bikin branch** dengan nama yang jelas:
    ```
    fix/correct-cpi-deflator-2022
    fix/typo-in-regression-table-3
    ```
-3. **Make your changes** — keep them minimal and focused on one issue
-4. **Test your changes** — run the relevant do-files or scripts and confirm output
-5. **Open a Pull Request** — reference the related Issue number
+3. **Lakukan perubahan** — usahakan tetep minimal dan fokus ke satu masalah aja
+4. **Test perubahannya** — jalanin do-files atau scripts yang relevan dan pastiin output-nya bener
+5. **Buka Pull Request** — kasih referensi ke nomor Issue yang terkait
 
-We aim to review external Pull Requests within **10 working days**.
-
----
-
-## Replication Issues
-
-Reproducibility is central to our mission. If you cannot replicate our results:
-
-1. Open a **Replication Issue** using the issue template
-2. Tell us exactly which paper/working paper you are replicating
-3. Specify which table or figure you cannot reproduce
-4. Share the error message or discrepancy you encounter
-
-We take replication issues seriously and will respond within **5 working days**.
-
-If replication requires data that is not publicly available due to licensing
-restrictions, we will explain this in the repository README and provide
-instructions for obtaining access.
+Kami usahain review Pull Request eksternal dalam **10 hari kerja**.
 
 ---
 
-## Style & Standards
+## Masalah Replikasi
 
-All contributions should follow our lab standards:
+Reproduksibilitas itu inti dari misi kami. Kalau kamu nggak bisa replikasi hasil kami:
+
+1. Buka **Replication Issue** pakai template issue
+2. Kasih tau persis paper/working paper mana yang kamu coba replikasi
+3. Sebutin tabel atau gambar mana yang nggak bisa kamu reproduce
+4. Share error message atau perbedaan yang kamu temuin
+
+Kami serius soal masalah replikasi dan bakal respons dalam **5 hari kerja**.
+
+Kalau replikasi butuh data yang nggak tersedia publik karena batasan lisensi, kami bakal jelasin di README repositori dan kasih instruksi cara dapetin aksesnya.
+
+---
+
+## Gaya & Standar
+
+Semua kontribusi harus ikutin standar lab kami:
 
 ### Stata
-- Do-files must run from top to bottom without error on a clean session
-- Use relative file paths — never hardcode absolute paths
-- All packages must be listed in `00_setup.do` with `ssc install` or `net install`
-- Variables must be labelled
-- Use `// comments` to explain non-obvious steps
-- Output files go in `/output` — never overwrite raw data
+- Do-files harus jalan dari atas ke bawah tanpa error di sesi yang bersih
+- Pakai relative file paths — jangan pernah hardcode absolute paths
+- Semua package harus dicantumkan di `00_setup.do` dengan `ssc install` atau `net install`
+- Variabel harus dikasih label
+- Pakai `// comments` buat jelasin langkah yang nggak obvious
+- File output masuk ke `/output` — jangan pernah overwrite data mentah
 
 ### R
-- Follow the [tidyverse style guide](https://style.tidyverse.org/)
-- Use `renv` for package management and commit `renv.lock`
-- All scripts must run from a clean R environment
-- Use `here::here()` for file paths — never `setwd()`
+- Ikutin [tidyverse style guide](https://style.tidyverse.org/)
+- Pakai `renv` untuk manajemen package dan commit `renv.lock`
+- Semua scripts harus jalan dari R environment yang bersih
+- Pakai `here::here()` untuk file paths — jangan pake `setwd()`
 
 ### Python
-- Follow [PEP 8](https://peps.python.org/pep-0008/)
-- Use `requirements.txt` or `pyproject.toml` for dependencies
-- Use relative paths throughout
+- Ikutin [PEP 8](https://peps.python.org/pep-0008/)
+- Pakai `requirements.txt` atau `pyproject.toml` untuk dependencies
+- Pakai relative paths di semua tempat
 
-### General
-- No sensitive data, credentials, or API keys in any commit
-- No large data files (>50MB) — use Harvard Dataverse or Zenodo links instead
-- Commit messages should be clear and describe *what* changed and *why*
-
----
-
-## Pull Request Process
-
-1. Ensure your changes are limited to the fix or feature described
-2. Update the relevant README if your change affects how to run the code
-3. Reference any related Issues in your PR description
-4. A lab member will review your PR — please be patient and responsive to feedback
-5. Once approved, a lab member with write access will merge it
-
-We reserve the right to decline contributions that fall outside the scope
-of the repository or do not meet our standards, but we will explain why.
+### Umum
+- Jangan ada data sensitif, kredensial, atau API keys dalam commit apapun
+- Jangan ada file data gede (>50MB) — pakai link Harvard Dataverse atau Zenodo aja
+- Commit messages harus jelas dan jelasin *apa* yang berubah dan *kenapa*
 
 ---
 
-## Code of Conduct
+## Proses Pull Request
 
-All interactions with DEN Economic Lab repositories are governed by our
-[Code of Conduct](CODE_OF_CONDUCT.md). We expect respectful, constructive
-engagement from everyone. Harassment or bad-faith contributions will result
-in removal from the community.
+1. Pastiin perubahanmu cuma untuk perbaikan atau fitur yang dijelaskan
+2. Update README yang relevan kalau perubahanmu ngaruh ke cara jalanin kode
+3. Kasih referensi Issue terkait di deskripsi PR-mu
+4. Anggota lab bakal review PR-mu — sabar ya dan responsif ke feedback
+5. Kalau udah disetujui, anggota lab dengan akses tulis bakal merge
 
----
-
-## Contact
-
-For questions not suited to public Issues or Discussions:
-
-📧 **General**: [contact@den-econ.id](mailto:contact@den-econ.id)  
-🐛 **Technical**: Open an Issue in the relevant repository  
-💬 **Discussion**: [github.com/orgs/den-econ/discussions](https://github.com/orgs/den-econ/discussions)
+Kami berhak nolak kontribusi yang di luar scope repositori atau nggak memenuhi standar kami, tapi kami bakal jelasin alasannya kok.
 
 ---
 
-*DEN Economic Lab — Open Analysis for Public Good*
+## Kode Etik
+
+Semua interaksi di repositori DEN Economic Lab diatur sama [Kode Etik](CODE_OF_CONDUCT.md) kami. Kami harap semua orang bisa terlibat dengan sopan dan konstruktif. Pelecehan atau kontribusi dengan niat buruk bakal berakibat dikeluarin dari komunitas.
+
+---
+
+## Kontak
+
+Buat pertanyaan yang nggak cocok untuk Issues atau Discussions publik:
+
+📧 **Umum**: [contact@den-econ.id](mailto:contact@den-econ.id)
+🐛 **Teknis**: Buka Issue di repositori yang relevan
+💬 **Diskusi**: [github.com/orgs/den-econ/discussions](https://github.com/orgs/den-econ/discussions)
+
+---
+
+*DEN Economic Lab — Analisis Terbuka untuk Kepentingan Publik*

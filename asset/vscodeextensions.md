@@ -1,4 +1,4 @@
-## Recomended
+## Direkomendasikan
 
 - ms-python.debugpy
 - ms-python.python
@@ -15,7 +15,7 @@
 - tomoki1207.pdf
 - yunierolivera.markdown-quarto-word-count
 
-## AI extension
+## Ekstensi AI
 - anthropic.claude-code, tapi harus berbayar.
 - openai.chatgpt
 - github.copilot-chat

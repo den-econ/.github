@@ -1,3 +1,3 @@
-# 🛠️ DEN Economic Lab Administration
-This repository contains the organizational settings, health files, and onboarding guides for the lab.
+# 🛠️ Administrasi DEN Economic Lab
+Repo ini berisi pengaturan organisasi, file kesehatan, dan panduan orientasi buat lab.
 
