@@ -15,5 +15,8 @@ DEN Econ Lab dibuat demi mewujudkan hal-hal berikut ini:
 
 # Beberapa penelitian kami
 
+- [Menggunakan](../../nitelite) indeks cahaya malam hari untuk menebak PDB nasional dan provinsi (Forecasting Indonesian National and Provincial GDP using Nighttime Light Index)
+
 # Lisensi
 
+- Semua repository menggunakan lisensi DEN. Lisensi DEN dapat dibaca di [sini](LICENSE)
